@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="author" content="Cyber 218"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Enjoy the jailbreak on your PlayStation device"/>
+  <meta property="og:title" content="PlayStation Jailbreak"/>
+  <meta name="keywords" content="Cyber 218, ps4, ps5,"/>
+  <meta property="og:image" content="https://img.onl/ZFCJIk"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:site_name" content="Cyber 218"/>
+  <link rel="shortcut icon" type="image/x-icon" href="https://img.onl/ZFCJIk" />
+
+  <title>PlayStation Jailbreak</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .navbar {
+      background-color: #242629 !important;
+    }
+    
+    button {
+      background-color: #044595;
+      border-color: #044595;
+      color: #fff;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    body {
+      background-color: #242629;
+      font-family: 'Arial', sans-serif;
+      color: #fff;
+      text-align: center;
+    }
+    .playstation-icon {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      height: auto;
+      padding: 10px;
+    }
+    h1 {
+      color: #044595;
+    }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="https://i.postimg.cc/y6JgKqyD/playstation-svgrepo-com.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      PlayStation Jailbreak
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#242629">الرئيسية</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container mt-4">
+
+  <img src="https://i.postimg.cc/y6JgKqyD/playstation-svgrepo-com.png" alt="PlayStation Icon" width="35%" class="playstation-icon">
+
+  <h1> update PlayStation 4</h1>
+  <p>Enable and Disable automatically update for PlayStation 4 </p>
+  <div class="row mt-4">
+    <div class="col-md-4">
+<button id="button-Payload" class="col-md-4 btn btn-primary btn-block" onMouseOver="progress.innerHTML='Creates dummy files in the PS4 update folder'"; onmouseout="progress.innerHTML='Status'" type="button" onclick="load_DisableUpdates()">Disable Updates</button>
+<button id="button-Payload" class="col-md-4 btn btn-success btn-block" onMouseOver="progress.innerHTML='Removes the dummy files in the PS4 update folder'"; onmouseout="progress.innerHTML='Status'" type="button" onclick="load_EnableUpdates()"> Enable Update </button>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+	function load_DisableUpdates(){
+    progress.innerHTML="DisableUpdates loading... please wait"; LoadedMSG="DisableUpdates Loaded";
+    setTimeout(function(){ let array = loadFile('disableupdates.bin.bz2');}, 50);
+    out_jb = "AllPL";
+    setTimeout(load_pocj, 500);
+}
+
+function load_EnableUpdates(){
+    progress.innerHTML="EnableUpdates loading... please wait"; LoadedMSG="EnableUpdates Loaded";
+    setTimeout(function(){ let array = loadFile('enableupdates.bin.bz2');}, 50);
+    out_jb = "AllPL";     setTimeout(load_pocj, 500);
+}
+	</script>
+</body>
+</html>
